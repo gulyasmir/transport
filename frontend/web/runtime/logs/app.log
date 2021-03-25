@@ -1,0 +1,154 @@
+2019-03-09 10:39:34 [89.232.118.237][-][-][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: /var/www/vizard.space/data/www/vizard.space/frontend/web/views/site/index.php in /var/www/vizard.space/data/www/vizard.space/vendor/yiisoft/yii2/base/View.php:233
+Stack trace:
+#0 /var/www/vizard.space/data/www/vizard.space/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/www/vizard...', Array, Object(frontend\controllers\SiteController))
+#1 /var/www/vizard.space/data/www/vizard.space/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#2 /var/www/vizard.space/data/www/vizard.space/frontend/controllers/SiteController.php(75): yii\base\Controller->render('index')
+#3 [internal function]: frontend\controllers\SiteController->actionIndex()
+#4 /var/www/vizard.space/data/www/vizard.space/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/vizard.space/data/www/vizard.space/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/vizard.space/data/www/vizard.space/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#7 /var/www/vizard.space/data/www/vizard.space/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#8 /var/www/vizard.space/data/www/vizard.space/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/vizard.space/data/www/vizard.space/frontend/web/index.php(17): yii\base\Application->run()
+#10 {main}
+2019-03-09 10:39:33 [89.232.118.237][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '55afea0lb9fanmeqhbn4ve29h1'
+    '_csrf' => '624e6053b02d4120b3733c73c4742bcd441fa6a2209848c7b24b6b35252e327aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DKALr6zHijf-ckRo1OPkhA-7lUdheaZw\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_HTTP_AUTHORIZATION' => 'Basic dml6YXJkOnNwYWNl'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTP_AUTHORIZATION' => 'Basic dml6YXJkOnNwYWNl'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_HOST' => 'vizard.space'
+    'HTTP_X_REAL_IP' => '89.232.118.237'
+    'HTTP_X_FORWARDED_FOR' => '89.232.118.237'
+    'HTTP_X_FORWARDED_PORT' => '80'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=55afea0lb9fanmeqhbn4ve29h1; _csrf=624e6053b02d4120b3733c73c4742bcd441fa6a2209848c7b24b6b35252e327aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DKALr6zHijf-ckRo1OPkhA-7lUdheaZw%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Debian) Server at vizard.space Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Debian)'
+    'SERVER_NAME' => 'vizard.space'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '89.232.118.237'
+    'DOCUMENT_ROOT' => '/var/www/vizard.space/data/www/vizard.space'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/vizard.space/data/www/vizard.space'
+    'SERVER_ADMIN' => 'admin@vizard.space'
+    'SCRIPT_FILENAME' => '/var/www/vizard.space/data/www/vizard.space/frontend/web/index.php'
+    'REMOTE_PORT' => '43184'
+    'REMOTE_USER' => 'vizard'
+    'AUTH_TYPE' => 'Basic'
+    'REDIRECT_URL' => '/frontend/web/gii'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/gii'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1552117173.472
+    'REQUEST_TIME' => 1552117173
+]
+2019-03-13 16:06:20 [84.18.126.235][-][ui3218g4rlhlf7ltc9lutrbf82][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: /var/www/vizard.space/data/www/vizard.space/frontend/web/views/site/index.php in /var/www/vizard.space/data/www/vizard.space/vendor/yiisoft/yii2/base/View.php:233
+Stack trace:
+#0 /var/www/vizard.space/data/www/vizard.space/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/www/vizard...', Array, Object(frontend\controllers\SiteController))
+#1 /var/www/vizard.space/data/www/vizard.space/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#2 /var/www/vizard.space/data/www/vizard.space/frontend/controllers/SiteController.php(70): yii\base\Controller->render('index')
+#3 [internal function]: frontend\controllers\SiteController->actionIndex()
+#4 /var/www/vizard.space/data/www/vizard.space/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/vizard.space/data/www/vizard.space/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/vizard.space/data/www/vizard.space/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#7 /var/www/vizard.space/data/www/vizard.space/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#8 /var/www/vizard.space/data/www/vizard.space/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/vizard.space/data/www/vizard.space/frontend/web/index.php(17): yii\base\Application->run()
+#10 {main}
+2019-03-13 16:06:20 [84.18.126.235][-][ui3218g4rlhlf7ltc9lutrbf82][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'ui3218g4rlhlf7ltc9lutrbf82'
+    '_csrf-frontend' => 'a86021d13a01ea8cb3068bd6eb615fe61bd8ab66629c685efec92b6d83a316cea:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"aOVaep9ERKxvLJ_d6NWrFrR7C3AN4XrI\";}'
+    'advanced-backend' => 'tuds2mmo72h8mdnqjbaigu4s10'
+    '_csrf-backend' => 'a25a831513c5a3e9b513549e3bb5604e64598993dceff00ee590ad1005b58d9fa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"sEvShL6qLzBBV7BbgrAxFGs8i21aa_aA\";}'
+    'PHPSESSID' => '55afea0lb9fanmeqhbn4ve29h1'
+    '_csrf' => '624e6053b02d4120b3733c73c4742bcd441fa6a2209848c7b24b6b35252e327aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DKALr6zHijf-ckRo1OPkhA-7lUdheaZw\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_HTTP_AUTHORIZATION' => 'Basic dml6YXJkOnNwYWNl'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTP_AUTHORIZATION' => 'Basic dml6YXJkOnNwYWNl'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_HOST' => 'vizard.space'
+    'HTTP_X_REAL_IP' => '84.18.126.235'
+    'HTTP_X_FORWARDED_FOR' => '84.18.126.235'
+    'HTTP_X_FORWARDED_PORT' => '80'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=ui3218g4rlhlf7ltc9lutrbf82; _csrf-frontend=a86021d13a01ea8cb3068bd6eb615fe61bd8ab66629c685efec92b6d83a316cea%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22aOVaep9ERKxvLJ_d6NWrFrR7C3AN4XrI%22%3B%7D; advanced-backend=tuds2mmo72h8mdnqjbaigu4s10; _csrf-backend=a25a831513c5a3e9b513549e3bb5604e64598993dceff00ee590ad1005b58d9fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22sEvShL6qLzBBV7BbgrAxFGs8i21aa_aA%22%3B%7D; PHPSESSID=55afea0lb9fanmeqhbn4ve29h1; _csrf=624e6053b02d4120b3733c73c4742bcd441fa6a2209848c7b24b6b35252e327aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DKALr6zHijf-ckRo1OPkhA-7lUdheaZw%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Debian) Server at vizard.space Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Debian)'
+    'SERVER_NAME' => 'vizard.space'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '84.18.126.235'
+    'DOCUMENT_ROOT' => '/var/www/vizard.space/data/www/vizard.space'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/vizard.space/data/www/vizard.space'
+    'SERVER_ADMIN' => 'admin@vizard.space'
+    'SCRIPT_FILENAME' => '/var/www/vizard.space/data/www/vizard.space/frontend/web/index.php'
+    'REMOTE_PORT' => '59282'
+    'REMOTE_USER' => 'vizard'
+    'AUTH_TYPE' => 'Basic'
+    'REDIRECT_URL' => '/frontend/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/login'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'PHP_AUTH_USER' => '***'
+    'PHP_AUTH_PW' => '***'
+    'REQUEST_TIME_FLOAT' => 1552482380.228
+    'REQUEST_TIME' => 1552482380
+]

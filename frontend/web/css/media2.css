@@ -1,0 +1,265 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+ 	.main-menu {
+ 		width: 155px;
+ 	}
+ 	.search {
+ 		width: 75px;
+ 	}
+ 	.city {
+ 		padding: 0 15px;
+ 	}
+ 	.cabinet__text {
+ 		display: none;
+ 	}
+ 	.hdr-order {
+ 		max-width: 140px;
+ 	}
+ 	.service__icon {
+	    margin-right: 10px;
+	}
+	.serv-descr {
+	    margin: 40px 0 0 45px;
+	}
+	.serv-descr__text-wrap {
+	    max-width: 380px;
+	}
+	.serv-list li {
+	    padding: 12px 25px 12px 20px;
+	    max-width: 300px;
+	}
+	.ftr-info {
+	    max-width: 140px;
+	    margin-right: 45px;
+	}
+	.service-item {
+		height: 210px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.tracking__input {
+	    max-width: 290px;
+	}
+	.sub-wrapp {
+		display: none;
+	}
+	.cabinet {
+		margin-left: auto;
+	}
+	.cabinet__text {
+		margin-right: 12px;
+ 		display: block;
+ 	}
+ 	.phone {
+ 		display: none;
+ 	}
+ 	.bars {
+		display: block;
+	}
+	.service {
+		font-size: 18px;
+		justify-content: flex-start;
+		border: none;
+	}
+	.serv-list li {
+	    max-width: 480px;
+	}
+	.serv-descr {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		justify-content: center;
+		margin: 0;
+		text-align: center;
+	}
+	.serv-descr__img-wrap {
+		margin: 30px 0;
+	}
+	.serv-list {
+		padding: 35px 0;
+	}
+	.serv-list li {
+		font-size: 14px;
+		padding: 8px 10px 8px 10px;
+	    margin-bottom: 10px;
+	}
+	.ftr-logo {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.ftr-info {
+		text-align: center;
+	}
+
+	.contacts {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: space-around;
+		margin: 40px 0 0 0;
+	}
+	.contacts__contact {
+		margin-bottom: 0;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.tracking {
+	    margin: 50px 0 50px 0;
+	}
+	.calculation__title {
+	    margin-bottom: 20px;
+	}
+	.service {
+		font-size: 30px;
+	}
+	.serv-list li {
+		margin-right: 20px;
+	    max-width: 380px;
+	}
+	.link {
+		padding-left: 0;
+		text-align: center;
+	}
+	.link-wrap {
+		margin-left: 0;
+	}
+	.service-item {
+	    height: 155px;
+	}
+	.service-item__title {
+	    font-size: 20px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 576px) {
+	.cabinet__text {
+		display: none;
+	}
+	.service-sub-wrap {
+		max-width: 380px;
+		margin: 0 auto;
+	}
+	.news__img-wrap {
+    	max-height: 170px;
+	    margin-right: 12px;
+	    width: 160px;
+	}
+	.news__title {
+		margin: 5px 0 10px 0;
+		font-size: 20px;
+	}
+	.news__content {
+	    padding: 12px 12px 0 0;
+	}
+	.news__text {
+		padding-bottom: 15px;
+	}
+	.contacts {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		-ms-align-items: center;
+		align-items: center;
+	}
+	.contacts__contact {
+		margin-bottom: 30px;
+	}
+	.ftr-info {
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+	.contacts {
+		margin-top: 0;
+	}
+	.ftr-info {
+		max-width: 100%;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.bars {
+		margin-right: 20px;
+	}
+	.hdr-order {
+		font-size: 12px;
+		max-width: 120px;
+	}
+	.news {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		-ms-align-items: center;
+		align-items: center;
+		text-align: center;
+	}
+	.about__title {
+		font-size: 24px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 380px) {
+	.hdr-order {
+		padding: 5px 0;
+	    max-width: 60px;
+	}
+	.hdr-order img {
+		display: block;
+		margin: 0 auto;
+	}
+	.hdr-order span {
+		display: none;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 600px) {
+
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
